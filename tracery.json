@@ -1,0 +1,181 @@
+{
+"origin": [ "#monster#" ],
+
+"monster" : [
+	"#trait.capitalize# #prefix# #animal##folk#, #feature#\n\n#stat_block#"
+],
+
+"prefix": ["#phys_effect#", "#phys_element#", "#phys_form#", "#ethereal_effect#", "#ethereal_element#", "#ethereal_form#"],
+"features": ["#feature#", "#feature#", "#feature#", "#feature#", "#feature#, #feature#" ],
+
+"phys_effect": [
+	"animating", "attracting", "binding", "blossoming", "consuming", "creeping",
+	"levitating", "opening", "petrifying", "phasing", "piercing", "pursuing", 
+	"crushing", "diminishing", "dividing", "duplicating", "enveloping", "expanding",
+	"reflecting", "regenerating", "rending", "repelling", "resurrecting", "screaming",
+	"fusing", "grasping", "hastening", "hindering", "illuminating", "imprisoning",
+	"sealing", "shapeshifting", "shielding", "spawning", "transmuting", "transporting"
+],
+
+"phys_element": [
+	"acid", "amber", "bark", "blood", "bone", "brine",
+	"moss", "obsidian", "oil", "poison", "rat", "salt",
+	"clay", "crow", "crystal", "ember", "flesh", "fungus",
+	"sand", "sap", "serpent", "slime", "stone", "tar",
+	"glass", "honey", "ice", "insect", "wood", "lava",
+	"thorn", "vine", "water", "wine", "wood", "worm"
+],
+
+"phys_form": [
+	"altar", "armored", "arrow", "beast", "bladed", "cauldron",
+	"horned", "key", "masked", "monolith", "pit", "prison", 
+	"chain", "chariot", "clawed", "cloaked", "colossus", "crowned",
+	"sentinel", "servant", "shield", "spear", "steed", "swarming",
+	"elemental", "eye", "fountain", "gate", "golem", "hammer",
+	"tentacled", "throne", "torch", "trap", "wall", "web"
+],
+
+"ethereal_effect": [
+	"avenging", "banishing", "bewildering", "blinding", "charming", "communicating", 
+	"excruciating", "foreseeing", "intoxicating", "maddening", "mesmerising", "mindreading", 
+	"compelling", "concealing", "deafening", "deceiving", "deciphering", "disguising",
+	"nullifying", "paralyzing", "revealing", "revolting", "scrying", "silencing", 
+	"dispelling", "emboldening", "encoding", "energizing", "enlightening", "enraging", 
+	"soothing", "summoning", "terrifying", "warding", "wearying", "withering"
+],
+
+"ethereal_element": [
+	"ash", "chaos", "distortion", "dream", "dust", "echo",
+	"plague", "plasma", "probability", "rain", "rot", "shadow",
+	"ectoplasm", "fire", "fog", "ghost", "harmony", "heat",
+	"smoke", "snow", "soul", "star", "stasis", "steam", 
+	"light", "lightning", "memory", "mind", "mutation", "negation",
+	"thunder", "time", "void", "whispering", "wind"
+],
+
+"ethereal_form": [
+	"aura", "beacon", "beam", "blast", "blob", "bolt", 
+	"gaze", "looped", "moment", "nexus", "portal", "pulse",
+	"bubble", "call", "cascade", "circle", "cloud", "coiled", 
+	"pyramid", "ray", "shard", "sphere", "spray", "storm", 
+	"cone", "cube", "dancing", "disk", "field", "form", 
+	"swarm", "torrent", "touch", "vortex", "wave", "word"
+],
+
+
+"animal": ["#terrestrial_animal#", "#aerial_animal#", "#aquatic_animal#" ],
+
+"aerial_animal" : [
+	"albatross", "bat", "beetle", "bird of paradise", "butterfly", "condor",
+	"kingfisher", "locust", "magpie", "mantis", "mockingbird", "mosquito", 
+	"crane", "crow", "dragonfly", "eagle", "falcon", "firefly",
+	"moth", "owl", "parrot", "peacock", "pelican", "pteranodon",
+	"flamingo", "fly", "flying squirrel", "goose", "gull", "hummingbird", 
+	"rooster", "sparrow", "swan", "vulture", "wasp", "woodpecker"
+],
+
+"terrestrial_animal": [
+	"ant", "ape", "armadillo", "badger", "bear", "boar",
+	"mole", "osterich", "ox", "porcupine", "rabbit", "raccoon",
+	"caterpillar", "centipede", "chameleon", "cockroach", "deer", "elephant",
+	"rat", "rhinoceros", "scorpion", "sheep", "slug", "snail",
+	"ferret", "fox", "giraffe", "goat", "horse", "human", 
+	"snake", "spider", "squirrel", "tiger", "wolf", "wolverine"
+],
+
+"aquatic_animal": [
+	"alligator", "amoeba", "anglerfish", "beaver", "clam", "crab", 
+	"octopus", "otter", "penguin", "platypus", "pufferfish", "salamander", 
+	"dolphin", "eel", "frog", "hippopotamus", "jellyfish", "leech", 
+	"sea anemone", "sea urchin", "seahorse", "seal", "shark", "shrimp",
+	"lobster", "manatee", "manta ray", "muskrat", "narwhal", "newt",
+	"squid", "swordfish", "tadpole", "turtle", "walrus", "whale"
+],
+
+"folk": [ "-man", "-woman", "", "", "", "", "" ],
+
+
+"feature": [ 
+	"antlers", "beak", "carapace", "claws", "compound eyes", "eye stalks",
+	"plates", "plumage", "proboscis", "scales", "segmented", "shaggy hair", 
+	"fangs", "fins", "fur", "gills", "hooves", "horns",
+	"shell", "spikes", "spinnerets", "spines", "stinger", "suction cups",
+	"legless", "long tongue", "many-eyed", "many-limbed", "mucus", "pincers",
+	"tail", "talons", "tentacles", "trunk", "tusks", "wings"
+],
+
+"trait": [
+	"amphibious", "bloated", "brittle", "cannibal", "clay-like", "colossal",
+	"illusory", "intelligent", "iridescent", "luminous", "many-headed", "mechanical",
+	"crystalline", "decaying", "#ethereal_element#", "ethereal", "ever-young", "eyeless", 
+	"#phys_element#", "planar", "reflective", "rubbery", "shadowy", "sharp", 
+	"fearless", "fluffy", "fungal", "gelatinous", "geometric", "hardened",
+	"skeletal", "slimy", "sticky", "stinking", "tiny", "translucent"
+],
+
+"ability" : [
+	"absorbing", "acid blood", "anti-magic", "blinding", "breath weapon", "camouflaging",
+	"mimicking", "mind-reading", "paralyzing", "phasing", "#phys_effect#", "poisonous", 
+	"duplicating", "electric", "entangling", "#ethereal_effect#", "exploding", "flying", 
+	"radioactive", "reflective", "regenerating", "shapeshifting", "spell-casting", "stealthy",
+	"gaze weapon", "hypnotizing", "impervious", "invisible", "life-draining", "magnetic",
+	"strangling", "super-strength", "telekinetic", "teleporting", "vampiric", "wall-crawling"
+],
+
+"weakness": [
+	"bells", "birdsong", "children", "cold", "cold iron", "competition",
+	"mistletoe", "moonlight", "music", "#method#", "phylactery", "#phys_element#",
+	"conversation", "deformity", "flattery", "flowers", "gifts", "gold", 
+	"puzzles", "riddles", "rituals", "silver", "sunlight", "tears", 
+	"heat", "holy icon", "holy water", "home cooking", "#insanity#", "mirrors",
+	"true name", "#valuable_material#", "weak spot", "#weapon_item#", "wine", "wormwood"
+],
+
+"weaknesses": [ "#weakness#", "#weakness#", "#weakness#", "#weakness#", "#weakness#, #weakness#" ], 
+
+
+"method": [
+	"alchemy", "blackmail", "bluster", "bribery", "bullying", "bureaucracy",
+	"investigation", "legal maneuvers", "manipulation", "misdirection", "money", "nagging",
+	"charm", "commerce", "cronies", "debate", "deceit", "deduction",
+	"negotiation", "persistence", "piety", "preparation", "quick wit", "research", 
+	"eloquence", "espionage", "fast-talking", "favors", "hard work", "humor",
+	"rumors", "sabotage", "teamwork", "theft", "threats", "violence"
+],
+
+"insanity" : [
+	"always lies", "always polite", "cannot count", "cannot lie", "faceblind", 
+	"#fears# rivers", "#fears# silence", "#fears# sleep", "#fears# sunlight", "#fears# the moon", "#fears# trees",
+	"#fears# birds", "#fears# blood", "fears books", "#fears# darkness", "#fears# fire", "#fears# gold",
+	"#fears# violence", "#fears# horses", "#fears# iron", "#fears# music", "#fears# rain",
+	"must sing", "says thoughts", "sees dead people"
+],
+
+"fears": ["fears", "hates", "abhors", "craves" ],
+
+"valuable_material": [
+	"alabaster", "amber", "aquamarine", "azurite", "beryl", "black pearl",
+	"jade", "jasper", "jet", "lapis lazuli", "malachite", "moonstone", 
+	"bloodstone", "bone china", "chalcedony", "cinnabar", "coral", "diamond", 
+	"onyx", "opal", "pearl", "platinum", "porcelain", "ruby",
+	"ebony", "emerald", "fire agate", "garnet", "gold", "ivory", 
+	"sapphire", "serpentine", "silver", "star iron", "topaz", "turquoise"
+],
+
+"weapon_item": [
+	"arming sword", "backsword", "battleaxe", "blowpipe", "claymore", "club",
+	"longbow", "longsword", "mace", "maul", "morningstar", "pike", 
+	"crossbow", "cutlass", "dagger", "flail", "flanged mace", "glaive",
+	"scimitar", "shortbow", "sickle", "sling", "spear", "staff",
+	"halberd", "hammer", "hatchet", "horsebow", "hunting knife", "lance",
+	"stake", "stiletto", "throwing axe", "warhammer", "warpick", "whip"
+],
+
+
+
+"stat_block": [ "Health: #health#\nArmor: #armor#\nSTR: #bonus#, DEX: #bonus#, WIL: #bonus#\nAttack bonus: #bonus#, #ability#\nWeakness: #weaknesses#" ],
+"health": [ "weak (1d HP)", "typical (2d HP)", "tough (3d HP)", "hulking (4d HP)", "colossal (6d HP)" ],
+"armor": [ "unarmored (6)", "light (7)", "moderate (8)", "heavy (9)", "nigh impervious (10)"],
+"bonus": [ "+0", "+1", "+2", "+3", "+4"] 
+}
+
